@@ -9,8 +9,7 @@ const Navbar = () => {
             <img src={logo} alt='logo' />
         </div>
         <div>
-            <ul className='flex items-center gap-10'>
-                {
+            <ul className='flex items-center gap-10'>                {
                     navLinksdata.map(({_id,title,link}) =>(
                       <li
                        className='text-base font-normal tracking-wide cursor-pointer hover:text-designColor duration-300'
